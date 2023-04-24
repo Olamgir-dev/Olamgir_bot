@@ -1,0 +1,21 @@
+{
+  "name": "visabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.61.0",
+    "node.js": "^0.0.1-security",
+    "validator": "^13.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
