@@ -112,8 +112,12 @@ bot.on('message', async msg => {
     const chatId = msg.chat.id;
     if ('/start' === text)
         start(chatId, userName);
-    if ('/regster' === text)
+    else  if ('/regster' === text)
         registerUser(msg);
+    else {
+        bot.sendMessage(chatId,"Siz men bilmagan buyruqni krtdinggiz tez orada Olamgir siz bilan bog'anadi!")
+    }
+
 });
 
 
